@@ -21,8 +21,8 @@
       <div>
         <h3 class="text-xl font-semibold mb-2">Creational Patterns</h3>
         <p class="text-gray-600 mb-4">
-          Patterns that deal with object creation mechanisms, trying to
-          create objects in a manner suitable to the situation.
+          Patterns that deal with object creation mechanisms, trying to create
+          objects in a manner suitable to the situation.
         </p>
       </div>
     </div>
@@ -31,13 +31,28 @@
       <div class="bg-gray-50 p-4 rounded-lg">
         <h4 class="font-semibold mb-2">Singleton Pattern</h4>
         <p class="text-sm text-gray-600 mb-3">
-          Ensures a class has only one instance and provides global access
-          to it.
+          Ensures a class has only one instance and provides global access to
+          it.
         </p>
-        <div class="text-xs text-gray-500">
-          <strong>Coming Soon:</strong> Implementation examples, use cases,
-          and best practices
-        </div>
+        <router-link
+          to="/design-patterns/singleton"
+          class="inline-flex items-center text-xs text-blue-600 hover:text-blue-800 font-medium"
+        >
+          Learn more about Singleton Pattern
+          <svg
+            class="w-3 h-3 ml-1"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5l7 7-7 7"
+            ></path>
+          </svg>
+        </router-link>
       </div>
 
       <div class="bg-gray-50 p-4 rounded-lg">
@@ -46,8 +61,8 @@
           Creates objects without specifying the exact class to create.
         </p>
         <div class="text-xs text-gray-500">
-          <strong>Coming Soon:</strong> Factory methods, abstract factories,
-          and practical examples
+          <strong>Coming Soon:</strong> Factory methods, abstract factories, and
+          practical examples
         </div>
       </div>
 
@@ -57,20 +72,20 @@
           Constructs complex objects step by step using a fluent interface.
         </p>
         <div class="text-xs text-gray-500">
-          <strong>Coming Soon:</strong> Method chaining, configuration
-          objects, and builder implementations
+          <strong>Coming Soon:</strong> Method chaining, configuration objects,
+          and builder implementations
         </div>
       </div>
 
       <div class="bg-gray-50 p-4 rounded-lg">
         <h4 class="font-semibold mb-2">Prototype Pattern</h4>
         <p class="text-sm text-gray-600 mb-3">
-          Creates objects by cloning an existing instance rather than
-          creating new instances.
+          Creates objects by cloning an existing instance rather than creating
+          new instances.
         </p>
         <div class="text-xs text-gray-500">
-          <strong>Coming Soon:</strong> Object cloning, deep vs shallow
-          copy, and performance considerations
+          <strong>Coming Soon:</strong> Object cloning, deep vs shallow copy,
+          and performance considerations
         </div>
       </div>
     </div>
